@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-
-
-  <head>
+<head>
   <meta charset="UTF-8">
   
 
@@ -61,11 +59,15 @@
   </style>
 </head>
 
+<body class="">
 
+  <div id="result-iframe-wrap" role="main">
+    <iframe
+      id="result"
+      srcdoc="<!DOCTYPE html>
+<html lang=&quot;en&quot; >
 
-  
-  
-  <head>
+<head>
   <meta charset=&quot;UTF-8&quot;>
   
 
@@ -100,7 +102,7 @@
 body {
   color: #2b2c48;
   font-family: &quot;Jost&quot;, sans-serif;
-  background-image: url(https://raw.githubusercontent.com/DanielRe80/Daniel/refs/heads/main/DSCF2022.jpg?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80);
+  background-image: url(https://images.unsplash.com/photo-1566738780863-f9608f88f3a9?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=2378&amp;q=80);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -459,6 +461,8 @@ body {
   window.console = window.console || function(t) {};
 </script>
 
+  
+  
 </head>
 
 
@@ -577,6 +581,15 @@ buttons.forEach(btn => {
     </script>
 
   
+</body>
+
+</html>
+"
+      sandbox="allow-forms allow-modals allow-pointer-lock allow-popups-to-escape-sandbox allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="accelerometer *; ambient-light-sensor *; camera *; display-capture *; encrypted-media *; geolocation *; gyroscope *; microphone *; midi *; payment *; vr *; web-share *; serial *; xr-spatial-tracking *" allowTransparency="true"
+      allowpaymentrequest="true" allowfullscreen="true" class="result-iframe">
+      </iframe>
+  </div>
+
 </body>
 
 </html>

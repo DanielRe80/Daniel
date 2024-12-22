@@ -489,7 +489,7 @@ body {
               <path d=&quot;M22 6l-10 7L2 6&quot; /></svg>
             danielreprieto@me.com
           </div>
-          <button class=&quot;contact-me&quot;>WORK TOGETHER</button>
+          <button class=&quot;contact-me&quot; onclick="sendEmail()">WORK TOGETHER</button>
         </div>
       </div>
     </div>
@@ -522,6 +522,12 @@ body {
     buttons.forEach(btn => {
       btn.addEventListener('click', handleButtonClick);
     });
+
+      function sendEmail() {
+    // The 'mailto' URI scheme is used to open the user's email client
+    window.location.href = "mailto:danielreprieto@me.com?subject=Let Us Work Together!";
+      };
+      
   </script>
 
 </body>

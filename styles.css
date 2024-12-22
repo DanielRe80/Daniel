@@ -239,7 +239,7 @@ body {
     &.is-active,
     &:hover {
       color: #2b2c48;
-      border-bottom: 3px solid #8a84ff;
+      border-bottom: 3px solid #0052FE;
       background: linear-gradient(
         to bottom,
         rgba(127, 199, 231, 0) 0%,

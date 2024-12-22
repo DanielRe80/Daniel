@@ -34,7 +34,7 @@ body {
 }
 
 .card[data-state="#about"] {
-  height: auto;
+  height: 550px;
   .card-main {
     padding-top: 0;
   }
